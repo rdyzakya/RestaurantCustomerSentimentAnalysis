@@ -1,3 +1,5 @@
+Link : https://colab.research.google.com/drive/1LZObwF-8uGtmL0nSPdv2xBABWsADUabS?authuser=2#scrollTo=-CO8Af4IdIzS
+
 This dataset consists of two files:
 1. Training data: train_data_restaurant.tsv
 2. Test data: test_data_restaurant.tsv
