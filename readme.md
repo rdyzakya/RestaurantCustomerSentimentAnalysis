@@ -1,14 +1,19 @@
-Link : https://colab.research.google.com/drive/1LZObwF-8uGtmL0nSPdv2xBABWsADUabS?authuser=2#scrollTo=-CO8Af4IdIzS
+Notebook Link : https://colab.research.google.com/drive/1LZObwF-8uGtmL0nSPdv2xBABWsADUabS?authuser=2#scrollTo=-CO8Af4IdIzS
+Kamus Alay Source : 'https://raw.githubusercontent.com/nasalsabila/kamus-alay/master/colloquial-indonesian-lexicon.csv'
 
-This dataset consists of two files:
-1. Training data: train_data_restaurant.tsv
-2. Test data: test_data_restaurant.tsv
+How to use the model:
+1. Download this repository
+2. Download and install scikit learn, pandas, and numpy
+3. Write the following code
 
-Both files are written by tsv format. The first value is the text and the second value is the sentiment value. 
-Training data is used for training AI model, while Test data is used for evaluating the AI model. 
+```python
+from model import RestaurantSentimentModel
 
+# initialize model
+my_model = RestaurantSentimentModel()
 
-Disclaimer
-This dataset is owned by PT Prosa Solusi Cerdas. 
-This dataset is used for assignment only. 
-It is not allowed to distributed this dataset without the acknowledgement of PT Prosa Solusi Cerdas.
+# use model to predict
+# preproc : True or False (True if you want to preprocess your input data aqnd false if you don't want, True is reccomended and the default value)
+# encode : True or False (True if you want the result is in the form of 0 and 1 and False if you want the result is in the form of 'positive' or 'negative')
+my_model.predict(["wah enak banget","menurut saya sedikit kurang enak"],preproc=True,encode=False)
+```
