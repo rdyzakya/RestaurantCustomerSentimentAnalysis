@@ -15,6 +15,6 @@ my_model = RestaurantSentimentModel()
 # use model to predict
 # preproc : True or False (True if you want to preprocess your input data aqnd false if you don't want, True is reccomended and the default value)
 # encode : True or False (True if you want the result is in the form of 0 and 1 and False if you want the result is in the form of 'negative' or 'positive')
-# * 0 : negative , 1 : positive
+# 0 : negative , 1 : positive
 my_model.predict(["wah enak banget","menurut saya sedikit kurang enak"],preproc=True,encode=False)
 ```
