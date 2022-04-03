@@ -1,10 +1,11 @@
-Notebook Link : https://colab.research.google.com/drive/1LZObwF-8uGtmL0nSPdv2xBABWsADUabS?authuser=2#scrollTo=-CO8Af4IdIzS
+Notebook Link : https://colab.research.google.com/drive/1LZObwF-8uGtmL0nSPdv2xBABWsADUabS?authuser=2#scrollTo=-CO8Af4IdIzS <br>
 Kamus Alay Source : 'https://raw.githubusercontent.com/nasalsabila/kamus-alay/master/colloquial-indonesian-lexicon.csv'
 
 How to use the model:
 1. Download this repository
 2. Download and install scikit learn, pandas, and numpy
-3. Write the following code
+3. Make sure pickle and re module exist within your python version, if not, download and install it
+4. Write the following example code
 
 ```python
 from model import RestaurantSentimentModel
