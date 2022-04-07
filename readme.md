@@ -1,5 +1,5 @@
 Notebook Link : https://colab.research.google.com/drive/1LZObwF-8uGtmL0nSPdv2xBABWsADUabS?authuser=2#scrollTo=-CO8Af4IdIzS <br>
-Kamus Alay Source : 'https://raw.githubusercontent.com/nasalsabila/kamus-alay/master/colloquial-indonesian-lexicon.csv'
+Kamus Alay Source : https://raw.githubusercontent.com/nasalsabila/kamus-alay/master/colloquial-indonesian-lexicon.csv
 
 How to use the model:
 1. Download this repository
